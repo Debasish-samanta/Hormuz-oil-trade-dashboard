@@ -35,3 +35,11 @@ This project presents an interactive geospatial dashboard developed using Python
 ```bash
 pip install -r requirements.txt
 python app.py
+
+## 📸 Dashboard Preview
+
+### 🌍 Chokepoints Map
+![Chokepoints](chokepoints-map.png)
+
+### 🔁 Import Flow Map
+![Flow](import-flow-map.png)
