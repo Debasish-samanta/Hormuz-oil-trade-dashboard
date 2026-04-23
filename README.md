@@ -1,10 +1,17 @@
 # 🌍 Geospatial Analysis of Global Oil Trade via the Strait of Hormuz
 
-This project presents an interactive geospatial dashboard developed using Python, Dash, Plotly, and GeoPandas to analyze global oil transportation patterns, with a focus on the Strait of Hormuz — one of the world's most critical maritime chokepoints.
+This project presents an interactive geospatial dashboard for analyzing global oil transportation networks, with a specific focus on the Strait of Hormuz — the world’s most critical maritime chokepoint. The dashboard integrates spatial mapping, flow visualization, and statistical analysis to understand oil transit patterns and geopolitical dependencies.
 
 ---
+## 🌐 Project Context
 
-## 🔍 Features
+The Strait of Hormuz represents a critical node in the global energy supply network, through which a substantial share of the world's oil trade is transported. Its strategic significance makes it highly sensitive to geopolitical tensions and supply disruptions.
+
+This dependency creates vulnerabilities in global energy systems, particularly for major importing economies in Asia. Analyzing these patterns through spatial and interactive methods provides valuable insights into trade flows, risk exposure, and infrastructure dependency.
+
+This project aims to visualize and analyze these dynamics using geospatial data and interactive dashboard techniques.
+
+## 🔍 Key Features
 
 - 🌐 Visualization of major global oil chokepoints  
 - 📍 Spatial mapping using shapefiles  
