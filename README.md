@@ -30,12 +30,6 @@ This project presents an interactive geospatial dashboard developed using Python
 - Vortexa tanker tracking  
 - Panama Canal Authority  
 
-## 🚀 Run the App
-
-```bash
-pip install -r requirements.txt
-python app.py
-
 ## 📸 Dashboard Preview
 
 ### 🌍 Chokepoints Map
@@ -43,3 +37,10 @@ python app.py
 
 ### 🔁 Import Flow Map
 ![Flow](import-flow-map.png)
+
+## 🚀 Run the App
+
+```bash
+pip install -r requirements.txt
+python app.py
+
