@@ -30,3 +30,9 @@ This project presents an interactive geospatial dashboard developed using Python
 - U.S. Energy Information Administration (EIA)  
 - Vortexa tanker tracking  
 - Panama Canal Authority  
+
+## 🚀 Run the App
+
+```bash
+pip install -r requirements.txt
+python app.py
