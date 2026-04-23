@@ -15,8 +15,7 @@ This project presents an interactive geospatial dashboard developed using Python
 
 ---
 
-## 🛠️ Technologies
-
+## 🛠️ Geospatial Tools & Libraries
 - Python  
 - Dash  
 - Plotly  
