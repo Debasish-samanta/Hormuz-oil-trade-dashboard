@@ -297,4 +297,4 @@ def display_page(page):
         })
         
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run_server(debug=False)
