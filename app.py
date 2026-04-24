@@ -12,11 +12,11 @@ server = app.server
 
 # LOAD DATA
 # =========================
-df = pd.read_excel("D:/_phd/Data/U_Info/Chokepoints_FY2026_F5.xlsx")
-df2 = pd.read_excel("D:/_phd/Data/U_Info/import.xlsx")
+df = pd.read_excel("data/Chokepoints_FY2026_F5.xlsx")
+df2 = pd.read_excel("data/import.xlsx")
 
-world = gpd.read_file("D:/_phd/Data/U_Info/World_enegy_transportation2.shp").to_crs(epsg=4326)
-points = gpd.read_file("D:/_phd/Data/U_Info/Checkpoints2.shp").to_crs(epsg=4326)
+world = gpd.read_file("data/World_enegy_transportation2.shp").to_crs(epsg=4326)
+points = gpd.read_file("data/Checkpoints2.shp").to_crs(epsg=4326)
 
 # Convert to GeoJSON
 worldgeojson = json.loads(world.to_json())
@@ -297,4 +297,4 @@ def display_page(page):
         })
         
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
