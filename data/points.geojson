@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "points",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "Id": 0, "name": "Strait of Hormuz", "name_1": "Strait of Hormuz", "y2020": 19.2, "y2021": 19.7, "y2022": 21.9, "y2023": 21.8, "y2024": 20.7, "y1H25": 20.9 }, "geometry": { "type": "Point", "coordinates": [ 6289943.200687238946557, 3073556.388200426474214 ] } },
+{ "type": "Feature", "properties": { "Id": 0, "name": "Strait of Malacca", "name_1": "Strait of Malacca", "y2020": 22.8, "y2021": 22.1, "y2022": 23.0, "y2023": 24.0, "y2024": 22.5, "y1H25": 23.2 }, "geometry": { "type": "Point", "coordinates": [ 11228114.361751781776547, 309603.117238331818953 ] } },
+{ "type": "Feature", "properties": { "Id": 0, "name": "Suez Canal", "name_1": "Suez Canal", "y2020": 5.4, "y2021": 5.2, "y2022": 7.3, "y2023": 8.8, "y2024": 4.8, "y1H25": 4.9 }, "geometry": { "type": "Point", "coordinates": [ 3600545.257699976209551, 3594430.040473594330251 ] } },
+{ "type": "Feature", "properties": { "Id": 0, "name": "Bab el-Mandeb", "name_1": "Bab el-Mandeb", "y2020": 5.7, "y2021": 6.0, "y2022": 8.0, "y2023": 9.3, "y2024": 4.1, "y1H25": 4.2 }, "geometry": { "type": "Point", "coordinates": [ 4826225.855804365128279, 1415608.171922711189836 ] } },
+{ "type": "Feature", "properties": { "Id": 0, "name": "Danish Straits", "name_1": "Danish Straits", "y2020": 3.1, "y2021": 3.1, "y2022": 4.2, "y2023": 5.0, "y2024": 4.9, "y1H25": 4.9 }, "geometry": { "type": "Point", "coordinates": [ 1227041.014500911813229, 7559257.861340083181858 ] } },
+{ "type": "Feature", "properties": { "Id": 0, "name": "Turkish Straits", "name_1": "Turkish Straits", "y2020": 3.2, "y2021": 3.3, "y2022": 3.2, "y2023": 3.5, "y2024": 3.6, "y1H25": 3.7 }, "geometry": { "type": "Point", "coordinates": [ 3142834.832898447755724, 4972338.446559825912118 ] } },
+{ "type": "Feature", "properties": { "Id": 0, "name": "Panama Canal", "name_1": "Panama Canal", "y2020": 1.7, "y2021": 1.8, "y2022": 2.2, "y2023": 2.2, "y2024": 2.0, "y1H25": 2.3 }, "geometry": { "type": "Point", "coordinates": [ -8877744.05696833319962, 1019185.645790558541194 ] } },
+{ "type": "Feature", "properties": { "Id": 0, "name": "Cape of Good Hope", "name_1": "Cape of Good Hope", "y2020": 7.9, "y2021": 7.2, "y2022": 6.1, "y2023": 6.2, "y2024": 9.3, "y1H25": 9.1 }, "geometry": { "type": "Point", "coordinates": [ 2056694.397514702053741, -4076979.587672690860927 ] } }
+]
+}
