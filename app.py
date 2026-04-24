@@ -15,11 +15,7 @@ server = app.server
 df = pd.read_excel("data/Chokepoints_FY2026_F5.xlsx")
 df2 = pd.read_excel("data/import.xlsx")
 
-world = gpd.read_file("data/World_enegy_transportation2.shp").to_crs(epsg=4326)
 points = gpd.read_file("data/Checkpoints2.shp").to_crs(epsg=4326)
-
-# Convert to GeoJSON
-worldgeojson = json.loads(world.to_json())
 
 hormuz_lat = 26.566
 hormuz_lon = 56.25
@@ -33,24 +29,8 @@ def create_arc(lon1, lat1, lon2, lat2, n_points=60):
 
     return lons, lats
 
-# → 1_MAP
 fig_map = go.Figure()
 
-fig_map.add_trace(go.Choropleth(
-    geojson=worldgeojson,
-    locations=world.index,
-    z=[1]*len(world),
-    colorscale=[[0, "#CFCFCF"], [1, "#CFCFCF"]],
-    showscale=False,
-    hoverinfo='skip',
-
-     marker=dict(
-        line=dict(
-            color="white",  
-            width=1
-        )
-    )
-))
 
 # Chekepoints
 fig_map.add_trace(go.Scattergeo(
