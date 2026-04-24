@@ -5,7 +5,6 @@ import geopandas as gpd
 import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np
-import json
 
 app = dash.Dash(__name__)
 server = app.server
