@@ -60,9 +60,8 @@ This work aligns with research in:
 ### 🔁 Import Flow Map
 ![Flow](import-flow-map.png)
 
-## 🚀 Run the App
 
-```bash
-pip install -r requirements.txt
-python app.py
+## 🌐 Live Dashboard
 
+Access the deployed interactive dashboard here:
+[![Live Dashboard](https://img.shields.io/badge/View-Dashboard-blue)](https://hormuz-oil-trade-dashboard-2.onrender.com)
